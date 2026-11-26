@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "turnosReservasService",
+    "buildTool": "maven",
+    "cacheProvider": "ehcache",
+    "clientFramework": "no",
+    "creationTimestamp": 1795708527117,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": false,
+    "enableTranslation": false,
+    "entities": [],
+    "jhipsterVersion": "8.11.0",
+    "nativeLanguage": "es",
+    "packageName": "ar.edu.um.turnos.reservas",
+    "prodDatabaseType": "postgresql",
+    "reactive": false,
+    "serverPort": 8081,
+    "skipClient": true,
+    "testFrameworks": []
+  }
+}
