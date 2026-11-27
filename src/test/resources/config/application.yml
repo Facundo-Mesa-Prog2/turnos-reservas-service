@@ -94,3 +94,18 @@ management:
   health:
     mail:
       enabled: false
+
+# Integracion con la catedra y el catalogo en tests: valores ficticios.
+# Los tests no deben depender de la VPN ni de otro servicio corriendo.
+catedra:
+  base-url: http://localhost:9999
+  jwt: test-jwt-no-valido
+  group-id: test-group
+  kafka:
+    bootstrap-servers: localhost:9092
+    group-id: test-group
+    actions-topic: test-actions-topic
+    phone-topic: test-phone-topic
+
+catalogo:
+  base-url: http://localhost:9998
