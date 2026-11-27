@@ -105,3 +105,15 @@ jhipster:
 # ===================================================================
 
 # application:
+catedra:
+  base-url: ${CATEDRA_BASE_URL}
+  jwt: ${CATEDRA_JWT}
+  group-id: ${CATEDRA_GROUP_ID}
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS}
+    group-id: ${KAFKA_CONSUMER_GROUP_ID}
+    actions-topic: ${KAFKA_APPOINTMENT_ACTIONS_TOPIC}
+    phone-topic: ${KAFKA_APPOINTMENT_PHONE_TOPIC}
+
+catalogo:
+  base-url: http://localhost:8080
